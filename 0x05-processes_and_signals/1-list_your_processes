@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Display currently running processes, which might not have a TTY.
+
+ps -a uf
+

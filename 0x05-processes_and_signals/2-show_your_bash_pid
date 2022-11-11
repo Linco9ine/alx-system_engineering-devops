@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#displays lines containg bash word,
+#shellcheak disable=SC2009
+
+ps -a -ux | grep bash
